@@ -1,0 +1,108 @@
+.wrap{
+	width: 1024px;
+	margin: 10px auto;
+	background-color: #CCF;
+}
+
+/*bagian header*/
+.wrap .header{
+	margin-top:0px;
+	padding:2px 2px 0px 0px;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+	-moz-box-shadow:0px 0px 20px #aaa;
+    -webkit-box-shadow:0px 0px 20px #aaa;
+    box-shadow:0px 0px 20spx #aaa;
+	width: 100%;
+	height: 100%;
+	/*background: green; */
+	/*height: 50px;*/
+	/*padding: 0px 0px; */
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background : yellow;
+	
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: url(images/menu_baner.png);
+	overflow: hidden;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: #CCF;
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+/*bagian cari*/
+.wrap .badan .cari{
+	background: #FFF;
+	float: left;	
+	width: 97%;
+	height: 100%;
+	/* padding: 10px; */
+}
+/*akhir sidebar*/
+
+.wrap .badan .content{
+	background: #FFC;
+	float: left;
+	height: 100%;
+	width: 75%;
+}
+
+.wrap .footer{
+	margin-top:10px;
+	padding:5px 5px 5px 5px;
+	background:#cd152f;
+	color:#fff;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+	-moz-box-shadow:0px 0px 20px #aaa;
+    -webkit-box-shadow:0px 0px 20px #aaa;
+    box-shadow:0px 0px 20spx #aaa;
+	width: 100%;
+	height: 100%;
+	background-color: #00F;
+}.wrap .badan .content div .clear .cari form table tr td {
+	color: #999;
+}
+.wrap .badan .content div .clear .cari form table {
+	color: #F90;
+}
+.wrap .badan .content div .clear .cari table {
+	font-weight: bold;
+}
+.wrap .badan .content div .clear .cari table tr {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+}
+.wrap .badan .content div .clear .cari table {
+	font-size: 12px;
+}
+
